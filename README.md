@@ -1,0 +1,1 @@
+https://www.washingtonpost.com/weather/2021/09/20/fire-sequoia-california-wind-rain/
