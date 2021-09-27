@@ -22,11 +22,7 @@ h1{
     font-size: 3.5rem;
     display:block;
     width: 100%;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
+    margin-top:0;}
 h2{
     font-size: 32px;
     font-weight:700;
@@ -46,20 +42,17 @@ a{
 .a-italic a{
     font-style: italic;
 }
-.header{
-    display:block;
-    box-sizing: border-box;
-    flex-direction: column;
-    border-bottom-color:rgb(233, 233, 233);
-    border-bottom-style:solid;
-    border-bottom-width:1px;
+figure{
+    margin-left:0;
+    margin-bottom:10;
+    background-size: cover;
 }
-.subhead{
-    font-weight: 300;
+figcaption{
+    margin: 0;
+    font-size: 14px;
     font-family: Franklin,arial,sans-serif;
     line-height: 1.25;
-    color:#666;
-}
+}  
 .container{
     width: 985.344;
     height: 16326;
@@ -68,6 +61,41 @@ a{
     margin-right:32;
     margin-bottom:64;
     margin-left:0;
+}
+.header{
+    display:block;
+    box-sizing: border-box;
+    flex-direction: column;
+    border-bottom-color:rgb(233, 233, 233);
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+    border-top-color:rgb(233, 233, 233);
+    border-top-style:solid;
+    border-top-width:1px;
+    margin-top:20px;
+}
+.link{
+    text-decoration: none;
+    font-weight:700;
+    border-bottom: none;
+    font-size: 16px;
+    color: #000;
+    font-family: Franklin,Arial,Helvetica,sans-serif;
+    line-height: 20px;
+}
+.subhead{
+    font-weight: 300;
+    font-family: Franklin,arial,sans-serif;
+    line-height: 1.25;
+    color:#666;
+}
+.headphones{
+    margin-top: 0;
+    margin-bottom: 0;
+    float:left;
+    height:30px;
+    width:30px;
+    margin-right:5px;
 }
 .content{
     width: 66%;
@@ -80,19 +108,11 @@ a{
     border-right-color:rgb(233, 233, 233);
     border-right-style:solid;
     border-right-width:1px;
-
 }
-figure{
-    margin:0;
-    background-size: cover;
-    width:100%;
+.image1{
+    width:916px;
+    height:611px;
 }
-figcaption{
-    margin: 0;
-    font-size: 14px;
-    font-family: Franklin,arial,sans-serif;
-    line-height: 1.25;
-}   
 .author{
     font-size: 1rem;
     text-decoration: none;
@@ -112,7 +132,7 @@ figcaption{
     cursor: pointer;
     font-size:16px;
     margin-right:8px;
-    font-weight:700;
+    font-weight:700px;
     font-family: Franklin, Arial, Helvetica, sans-serif;
     border-bottom-color:rgb(233, 233, 233);
     border-bottom-style:solid;
@@ -123,12 +143,23 @@ figcaption{
     padding-top:16px;
     padding-bottom:16px;
 }
+.arrow{
+    float:right;
+    margin-top:0;
+}
 .introducing:hover{
     color: rgb(61, 115, 213);
 }
-.arrow{
-    float:right;
-    margin-top: 8px;
+.advertisement{
+    border-bottom-color:rgb(233, 233, 233);
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+    border-top-color:rgb(233, 233, 233);
+    border-top-style:solid;
+    border-top-width:1px;
+    padding-top:70px;
+    padding-bottom:70px;
+    text-align: center;
 }
 .footer{
     padding:32px;
@@ -153,4 +184,7 @@ footer a{
 .item{
     color:rgb(42, 42, 42);
     font-weight: bolder;
+}
+.diana{
+    font-style:italic;
 }
