@@ -7,37 +7,38 @@
      src: url(Fonts/Postoni.ttf);
  }
  body{
-    font-family: Georgia, 'Times New Roman', serif;
     line-height: 1.6;
+    font-family: Georgia, 'Times New Roman', serif;
     font-size: 1.25rem;
     color:#2a2a2a;
     padding-bottom:24px;
 }
  h1,h2,h3,h4{
-    font-family: Postoni,garamond,serif;
     margin:0;
+    font-family: Postoni,garamond,serif;
  }
-h1{    
-    line-height: 1.1;   
-    font-size: 3.5rem;
-    display:block;
+h1{   
+    display:block; 
     width: 100%;
-    margin-top:0;}
+    line-height: 1.1; 
+    margin-top:0;
+    font-size: 3.5rem;
+}
 h2{
+    line-height:40px;
     font-size: 32px;
     font-weight:700;
-    line-height:40px;
 }
 h3{
-    font-size: 24px;
-    font-weight:700;
     line-height:30px;
+    font-size: 24px;
+    font-weight:700; 
 }
 a{
-    text-decoration: none;
-    cursor: pointer;
-    color: #1955a5;
     border-bottom: 1px solid #d5d5d5;
+    text-decoration: none;
+    color: #1955a5;
+    cursor: pointer;
 }
 .a-italic a{
     font-style: italic;
@@ -49,9 +50,9 @@ figure{
 }
 figcaption{
     margin: 0;
-    font-size: 14px;
-    font-family: Franklin,arial,sans-serif;
     line-height: 1.25;
+    font-size: 14px;
+    font-family: Franklin,arial,sans-serif;  
 }  
 .container{
     width: 985.344;
@@ -75,27 +76,27 @@ figcaption{
     margin-top:20px;
 }
 .link{
-    text-decoration: none;
+    line-height: 20px;
     font-weight:700;
     border-bottom: none;
     font-size: 16px;
     color: #000;
     font-family: Franklin,Arial,Helvetica,sans-serif;
-    line-height: 20px;
+    text-decoration: none;
 }
 .subhead{
+    line-height: 1.25;
     font-weight: 300;
     font-family: Franklin,arial,sans-serif;
-    line-height: 1.25;
     color:#666;
 }
 .headphones{
+    float:left;
     margin-top: 0;
     margin-bottom: 0;
-    float:left;
+    margin-right:5px;
     height:30px;
     width:30px;
-    margin-right:5px;
 }
 .content{
     width: 66%;
@@ -116,24 +117,20 @@ figcaption{
 .author{
     font-size: 1rem;
     text-decoration: none;
-    cursor: pointer;
     color: #2a2a2a;
+    cursor: pointer;
 }
 .datetime{
+    line-height:17.5px;
     color:rgb(102, 102, 102);
     font-family:Franklin,arial,sans-serif;
     font-size:14px;
-    line-height:17.5px;
 }
 .introducing{
     display:block;
-    text-decoration: none;
-    color:rgb(17, 17, 17);
+   
     cursor: pointer;
-    font-size:16px;
     margin-right:8px;
-    font-weight:700px;
-    font-family: Franklin, Arial, Helvetica, sans-serif;
     border-bottom-color:rgb(233, 233, 233);
     border-bottom-style:solid;
     border-bottom-width:1px;
@@ -142,6 +139,11 @@ figcaption{
     border-top-width:1px;
     padding-top:16px;
     padding-bottom:16px;
+    text-decoration: none;
+    color:rgb(17, 17, 17);
+    font-weight:700px;
+    font-size:16px;
+    font-family: Franklin, Arial, Helvetica, sans-serif;
 }
 .arrow{
     float:right;
@@ -163,7 +165,6 @@ figcaption{
 }
 .footer{
     padding:32px;
-    font-family: Franklin, Arial, Helvetica,sans-serif;
     width: 551.312;
     height: 665;
     border-style:solid;
@@ -172,14 +173,15 @@ figcaption{
     border-width:1px;
     font-size:1.125rem;
     line-height:1.5;
+    font-family: Franklin, Arial, Helvetica,sans-serif;
 }
 footer a{
     border-bottom:none;
 }
 .bold-a{
+    line-height:27px;
     color:rgb(25, 85, 165);
     font-weight:bolder;
-    line-height:27px;
 }
 .item{
     color:rgb(42, 42, 42);
